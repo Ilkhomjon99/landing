@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'TT Hoves',sans-serif;
+    color: #222;
+}
+
+section {
+padding: 0 calc(24px + (121 - 24) * ((110vw - 375px) / (1280 - 375)));
+}
+
+section.hello {
+padding-top: 40px;
+background-image: url('./img/html_css_js\ 1.png');
+background-repeat: no-repeat;
+background-position: top 100px right 40px;
+background-size: 30%;
+
+}
+
+
+
+.logo {
+height: calc(30px + (41 - 30) * ((110vw - 375px) / (1280 - 375)));
+}
+
+.courseInfo {
+display: flex;
+gap: 30px 160px;
+flex-wrap: wrap;
+margin-top: calc(28px + (85 - 28) * ((110vw - 375px) / (1280 - 375)));
+margin-bottom: calc(48px + (76 - 48) * ((110vw - 375px) / (1280 - 375)));
+}
+
+.courseData {
+    
+    font-size: 21px;
+    line-height: 140%;
+    
+}
+
+.courseData .value {
+    font-weight: 700;
+    
+}
+
+h1 {
+    font-family: 'Chava', sans-serif;
+    font-size: calc(42px + (80 - 42) * ((110vw - 375px) / (1280 - 375)));
+   
+    line-height: 110%;
+    
+    
+}
+
+p {
+    font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375)));
+    margin-top: calc(20px + (40 - 20) * ((110vw - 375px) / (1280 - 375)));
+    font-weight: 300;
+    line-height: 140%;
+
+   
+
+    
+    
+}
+
+.cta {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 328px;
+    padding: 20px 0px;
+    border-radius: 12px ;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid  #6E3ABA;
+
+}
+
+button.white {
+    background: white;
+    color: #6E3ABA;
+    border: 1px solid  #6E3ABA;
+
+}
+
+
+
+
+
+
+
+
+
+.peoples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+    font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375))); 
+    line-height: 150%;
+} 
+
+.person {
+    width: calc(50% - 50px); 
+    
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+}
+    
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375))); 
+    margin-top: calc(10px + (20 - 10) * ((110vw - 375px) / (1280 - 375)));
+    max-width: 100%;
+    line-height: 150%;
+} 
+    
+
+    
+
+    
+img {
+   margin: 52px;
+   max-width: 100%;
+   height: auto;
+}
+    
+h2 {
+
+  margin-top: 100px;
+ font-size: calc(34px + (58 - 34) * ((110vw - 375px) / (1280 - 375)));
+ line-height: 110%;
+ font-weight: 500;
+ 
+}
+
+.people {
+    font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375))); 
+    line-height: 150%;
+    font-weight: 600;
+    flex-direction: row;
+}
+
+
+ 
+
+                  
+
+
+.saleContainer {
+    background-color: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(4.4vw + 23px) 0 calc(5.3vw + 20px);
+    margin-top: 200px;
+}
+
+.saleContainer h3 {
+    color: white;
+    font-size: calc(2vw + 26.5px);
+    margin-bottom: calc(4.1vw + 4.7px);
+}
+
+.time {
+    display: flex;
+    gap: 85px;
+    margin-bottom: calc(4vw + 6px);
+}
+.date {
+    font-size: calc(12.6vw + 12.8px);
+    font-family: "Chava";
+}
+
+.timeCard span {
+font-size: calc(1.9vw + 3px);
+display: block;
+text-align: center;
+}
+
+
+
+
+h2 {
+   
+    font-size: calc(34px + (58 - 34) * ((110vw - 375px) / (1280 - 375)));
+    line-height: 170%;
+}
+
+.aboutus {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+
+}
+
+
+
+
+.column {
+    width: calc(50% - 20px); 
+    margin-bottom: 0px; 
+    
+}
+
+h4 {
+font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375)));
+line-height: 150%;
+
+margin-top: 90px;
+}
+
+.describe {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 150%;
+    
+
+}
+
+.study {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 550px) {
+    .column {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    h4 {
+        margin-top: calc(10px + (90 - 10) * ((110vw - 375px) / (1280 - 375)));
+    }
+
+    .describe {
+        margin-top: 5px; 
+    }
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+    
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
